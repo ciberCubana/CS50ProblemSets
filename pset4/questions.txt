@@ -1,0 +1,57 @@
+0.  BMP-  24 bits (16,7 millones de colores), 8 bits (256 colores) y menos.
+    GIF-  8 bits per pixel for each image, allowing a single image to reference
+          its own palette of up to 256 different colors chosen from the 24-bit RGB color space.
+    JPEG- 24 bits
+    PNG-  24 bits
+
+1.  GIF (Graphics Interchange Format).
+
+2.  Lossless and lossy compression are terms that describe whether or not, in the compression of 
+    a file, all original data can be recovered when the file is uncompressed. 
+    Lossless compression: every single bit of data that was originally in the file remains after the file is uncompressed. All 
+    of the information is completely restored. 
+    Lossy compression: reduces a file by permanently eliminating certain information, especially
+    redundant information. When the file is uncompressed, only a part of the original information is still there 
+    (although the user may not notice it). 
+    
+3.  JPEG
+
+4.  If a file is deleted on the FAT file system the first character of a file name in the directory entry is replaced by a 
+    special character (E5h) as a flag, causing the operating system to ignore the file. Also, all clusters allocated 
+    to the file are marked as 'available' in the File Allocation Table (FAT)
+    
+5.  Overwrite in the same address.
+
+6.  The header file for integer types.
+
+7.  These are integer types with a specific size. uint8_t is an integer type that can store 8 bits (a byte). Similarly, 
+    int32_t is a integer type that takes up 32 bits (4 bytes or what's often called a double word). The reason we have these 
+    types is that the conventional types like char and int are not guaranteed to take up a specific amount of bytes, which
+    can often be of importantance.
+    
+8.  BYTE-  8 bits
+    DWORD- 32-bit unsigned integer
+    LONG- 32-bit signed integer
+    WORD- 16-bit unsigned integer
+    
+9.  The first two bytes in ASCII are BM, in hexadecimal 0x424D and in decimal 
+    
+10. bfSize is the size of the whole bmp file, which includes the headerfiles, while biSize is the size of the BITMAPINFOHEADER 
+    header file. biSize is constant and it equals 14 bytes
+    
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+
+12. biBitCount
+
+13. If it can't find the file.
+
+14. We are always reading a struct, this argument specifies the number of elements we want to read.
+
+15. padding = 3
+
+16. Moves to a specific location in a file.
+
+
+17. Current position of the file pointer.
+
+18. Run whodunit !!!!!! Figure out!! 
